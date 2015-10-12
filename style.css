@@ -1,24 +1,84 @@
-body {
-	background-image: url(photos/starcraftcat.jpeg);
+body
+    {
+        /*background:url(DanDan.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        margin: 0;
+        padding: 0;*/
+
+
+/*background-image: url(Photos/DanDan.jpg); 
+*//*background-repeat: no-repeat; 
+*/
+background-color: #000;
+background-size: 1000px 1500px;
+    }
+
+#top {
+
+	color: green;
+	font-size: 50;
+}
+
+#picture {
+	background-color: #ccc;
+}
+
+p#picture {
+	color: orange;
+}
+
+area.friendLink {
+	shape: rect;
+	alt: OOPS;
+	target:_blank;
+}
+area.friendLink:hover {
+	border-style: solid;
+	border-width: 7px;
+}
+
+area:hover {
+	outline: 3px solid black;
+}
+
+li {
+	list-style: none;
+	float: left;
+}
+
+nav a {
+	display: block;
+	width: 275px;
+	height:83px;
+	margin: 6px;
+	background-image: url(Photos/spriteImage1.jpg);
+	background-size: 275px;
+	font-size: 50;
+	text-decoration: none;
+	text-indent: 20px;
+}
+
+nav a:hover {
+	background-position: 0 -83;
+}
+
+#wrapper {
+	width:945px;
+	/*height:1500;*/
+	background-image: url(Photos/DanDan.jpg);
 	background-repeat: no-repeat;
-	background-color: lightblue;
-	text-align: center;
 	background-position: center;
-	background-size: 100%;
+	background-size: 945 1500;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#headerwrapper {
-	text-align: left;
-	background-color: green;
-	margin-top: -20;
-}
-
-#bodywrapper {
-	text-align: center;
-	background-color: pink;
-}
-
-#footerwrapper {
-	text-align: right;
-	background-color: orange;
+#mainContent {
+	width: 945px;
+	height: 1500px;
+	margin-left: auto;
+	margin-right: auto;
 }
